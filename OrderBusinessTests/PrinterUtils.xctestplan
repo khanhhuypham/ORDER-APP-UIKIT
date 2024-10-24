@@ -1,0 +1,23 @@
+{
+  "configurations" : [
+    {
+      "id" : "87CEF1A5-9187-4F67-9AD8-86B2D27933F4",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:TechresOrder.xcodeproj",
+      "identifier" : "946108E52C620594004F26D7",
+      "name" : "OrderBusinessTests"
+    },
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+
+  ],
+  "version" : 1
+}

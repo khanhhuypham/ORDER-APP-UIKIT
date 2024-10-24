@@ -1,0 +1,790 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "5F84573F-689F-456E-BCAA-CD6C73E33ACF"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B2D56B12-080B-4B1E-96C4-4794545AFB36"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TechresOrder/Scenes/Fee/Extensions/FeeViewController+Extension+CallAPI.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "fees()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9FEDD9B1-4429-43C5-8459-7A35D13898E5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TechresOrder/Scenes/Fee/Extensions/FeeViewController+Extension.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "tableView(_:heightForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F8EA4EDA-027C-4C1B-9E51-2BA4EABF7E5E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TechresOrder/Scenes/Fee/Extensions/FeeViewController+Extension+CallAPI.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "fees()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "33B2F2A9-AC38-447F-A6B1-0DC4A52ED36E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TechresOrder/Scenes/Fee/Extensions/FeeViewController+Extension.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "tableView(_:heightForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "63203C0B-6B0D-4CDF-97DB-0D5DAA4246C1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TechresOrder/Scenes/Fee/Extensions/FeeViewController+Extension.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "104"
+            endingLineNumber = "104"
+            landmarkName = "tableView(_:heightForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "953442D7-5E38-4ACB-A668-928B5A59565C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TechresOrder/Scenes/UpdateProfile/view/UpdateProfileViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "176"
+            endingLineNumber = "176"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "805D94E5-5F6D-4D2D-8407-7DAE1C506F23"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TechresOrder/Scenes/UpdateProfile/view/UpdateProfileViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "178"
+            endingLineNumber = "178"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "79B341DE-8BD8-47FC-9735-587E64A2151F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TechresOrder/Scenes/UpdateProfile/Extensions/UpdateProfileViewController+Extension.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "setProfile(account:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9BC3E9A6-F018-4044-A777-022EF07F7535"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TechresOrder/Scenes/UpdateProfile/Extensions/UpdateProfileViewController+Extension.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "setProfile(account:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "30AFF7F6-262A-4D8B-A7B5-ECA06001FED3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TechresOrder/Scenes/UpdateProfile/Extensions/UpdateProfileViewController+Extension.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "214"
+            endingLineNumber = "214"
+            landmarkName = "getGenerateFile()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "30AFF7F6-262A-4D8B-A7B5-ECA06001FED3 - 93ef4afef94819c0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (ORDER.APIResponse) -&gt; () in ORDER.UpdateProfileViewController.getGenerateFile() -&gt; ()"
+                  moduleName = "ORDER"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phunguyenvan/Documents/OVERATE-VNTECH/ORDER/vn.techres.order.ios/TechresOrder/Scenes/UpdateProfile/Extensions/UpdateProfileViewController+Extension.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "215"
+                  endingLineNumber = "215"
+                  offsetFromSymbolStart = "1216">
+               </Location>
+               <Location
+                  uuid = "30AFF7F6-262A-4D8B-A7B5-ECA06001FED3 - 93ef4afef94819c0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (ORDER.APIResponse) -&gt; () in ORDER.UpdateProfileViewController.getGenerateFile() -&gt; ()"
+                  moduleName = "ORDER"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phunguyenvan/Documents/OVERATE-VNTECH/ORDER/vn.techres.order.ios/TechresOrder/Scenes/UpdateProfile/Extensions/UpdateProfileViewController+Extension.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "215"
+                  endingLineNumber = "215"
+                  offsetFromSymbolStart = "1624">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9345CE64-AFC5-41EB-9EF8-3CE8632E0CB0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TechresOrder/Scenes/UpdateProfile/Extensions/UpdateProfileViewController+Extension.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "207"
+            endingLineNumber = "207"
+            landmarkName = "getGenerateFile()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7871C033-43D8-485F-8099-79D5BB224CCA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TechresOrder/Scenes/UpdateProfile/Extensions/UpdateProfileViewController+Extension.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "208"
+            endingLineNumber = "208"
+            landmarkName = "getGenerateFile()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FFEE598C-2639-4C79-816C-962AF21F2FA4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TechresOrder/Scenes/UpdateProfile/Extensions/UpdateProfileViewController+Extension.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "206"
+            endingLineNumber = "206"
+            landmarkName = "getGenerateFile()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FFEE598C-2639-4C79-816C-962AF21F2FA4 - b3a9368f326ea4b0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ORDER.UpdateProfileViewController.getGenerateFile() -&gt; ()"
+                  moduleName = "ORDER"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phunguyenvan/Documents/OVERATE-VNTECH/ORDER/vn.techres.order.ios/TechresOrder/Scenes/UpdateProfile/Extensions/UpdateProfileViewController+Extension.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "206"
+                  endingLineNumber = "206"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "FFEE598C-2639-4C79-816C-962AF21F2FA4 - 93ef4afef94818d8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (ORDER.APIResponse) -&gt; () in ORDER.UpdateProfileViewController.getGenerateFile() -&gt; ()"
+                  moduleName = "ORDER"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phunguyenvan/Documents/OVERATE-VNTECH/ORDER/vn.techres.order.ios/TechresOrder/Scenes/UpdateProfile/Extensions/UpdateProfileViewController+Extension.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "207"
+                  endingLineNumber = "207"
+                  offsetFromSymbolStart = "152">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "237CB498-8AAB-49B1-9660-823B0A328690"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TechresOrder/Scenes/GenerateReport/Extensions/ReportRevenueToday+Extension.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "reportRevenueTodayByBranch()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F44FF5C1-DFB7-4918-8455-464308D672A0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TechresOrder/Scenes/GenerateReport/view/cell/ReportRevenueByCategoryTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "108"
+            endingLineNumber = "108"
+            landmarkName = "bindTableView()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D2B94276-8AB9-4548-996D-8F8A552425F6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TechresOrder/Scenes/Brand/View/BrandViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
+            landmarkName = "fetBrands()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BDBF6055-2EAB-426C-B8B8-6A59F1C88018"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TechresOrder/Scenes/Area/view/AreaViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "187"
+            endingLineNumber = "187"
+            landmarkName = "registerAreaCell()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6BB75751-56CE-4D59-99AA-F41FCA2B3556"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TechresOrder/Scenes/Area/Extensions/AreaViewController+Extension.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "getAreas()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6BB75751-56CE-4D59-99AA-F41FCA2B3556 - 52d093dd137d0cf7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (TECHRES_ORDER.APIResponse) -&gt; () in TECHRES_ORDER.AreaViewController.getAreas() -&gt; ()"
+                  moduleName = "TECHRES-ORDER"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phunguyenvan/Documents/OVERATE-VNTECH/TECHRES-PROJECTS/IOS/order/TechresOrder/Scenes/Area/Extensions/AreaViewController+Extension.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "1528">
+               </Location>
+               <Location
+                  uuid = "6BB75751-56CE-4D59-99AA-F41FCA2B3556 - 52d093dd137d0cf7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (TECHRES_ORDER.APIResponse) -&gt; () in TECHRES_ORDER.AreaViewController.getAreas() -&gt; ()"
+                  moduleName = "TECHRES-ORDER"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phunguyenvan/Documents/OVERATE-VNTECH/TECHRES-PROJECTS/IOS/order/TechresOrder/Scenes/Area/Extensions/AreaViewController+Extension.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "1396">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B14E4657-48EA-4F3D-8492-37B799C382D1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TechresOrder/Scenes/Payment/view/cell/PaymentFooterTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "123"
+            endingLineNumber = "123"
+            landmarkName = "bindViewModel()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7955FDBA-1DC7-4F65-ACFA-1621F565F738"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TechresOrder/Scenes/Payment/view/cell/PaymentFooterTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "137"
+            endingLineNumber = "137"
+            landmarkName = "bindViewModel()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1B2D1637-0F42-4CB9-8CBF-EC214FE61383"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TechresOrder/Scenes/Utilities/view/UtilitiesViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "248"
+            endingLineNumber = "248"
+            landmarkName = "tableView(_:heightForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D84F5372-F1B1-4248-BCDA-36E5AD47FD00"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TechresOrder/CustomTabbar/CustomTabBarController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "220"
+            endingLineNumber = "220"
+            landmarkName = "presentModalDialogConfirmViewController(dialog_type:title:content:isHideCancelButton:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D84F5372-F1B1-4248-BCDA-36E5AD47FD00 - a9056fabd736501d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TECHRES_ORDER.CustomTabBarController.presentModalDialogConfirmViewController(dialog_type: Swift.Int, title: Swift.String, content: Swift.String, isHideCancelButton: Swift.Bool) -&gt; ()"
+                  moduleName = "TECHRES-ORDER"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phunguyenvan/Documents/OVERATE-VNTECH/TECHRES-PROJECTS/IOS/order/TechresOrder/CustomTabbar/CustomTabBarController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "222"
+                  endingLineNumber = "222"
+                  offsetFromSymbolStart = "580">
+               </Location>
+               <Location
+                  uuid = "D84F5372-F1B1-4248-BCDA-36E5AD47FD00 - a9056fabd736501d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TECHRES_ORDER.CustomTabBarController.presentModalDialogConfirmViewController(dialog_type: Swift.Int, title: Swift.String, content: Swift.String, isHideCancelButton: Swift.Bool) -&gt; ()"
+                  moduleName = "TECHRES-ORDER"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phunguyenvan/Documents/OVERATE-VNTECH/TECHRES-PROJECTS/IOS/order/TechresOrder/CustomTabbar/CustomTabBarController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "222"
+                  endingLineNumber = "222"
+                  offsetFromSymbolStart = "704">
+               </Location>
+               <Location
+                  uuid = "D84F5372-F1B1-4248-BCDA-36E5AD47FD00 - a9056fabd736501d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TECHRES_ORDER.CustomTabBarController.presentModalDialogConfirmViewController(dialog_type: Swift.Int, title: Swift.String, content: Swift.String, isHideCancelButton: Swift.Bool) -&gt; ()"
+                  moduleName = "TECHRES-ORDER"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phunguyenvan/Documents/OVERATE-VNTECH/TECHRES-PROJECTS/IOS/order/TechresOrder/CustomTabbar/CustomTabBarController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "222"
+                  endingLineNumber = "222"
+                  offsetFromSymbolStart = "600">
+               </Location>
+               <Location
+                  uuid = "D84F5372-F1B1-4248-BCDA-36E5AD47FD00 - a9056fabd7365fc3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TECHRES_ORDER.CustomTabBarController.presentModalDialogConfirmViewController(dialog_type: Swift.Int, title: Swift.String, content: Swift.String, isHideCancelButton: Swift.Bool) -&gt; ()"
+                  moduleName = "TECHRES-ORDER"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phunguyenvan/Documents/OVERATE-VNTECH/TECHRES-PROJECTS/IOS/order/TechresOrder/CustomTabbar/CustomTabBarController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "220"
+                  endingLineNumber = "220"
+                  offsetFromSymbolStart = "308">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "895E2D19-C0C2-4077-B63A-B0A32DE57C47"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TechresOrder/CustomTabbar/CustomTabBarController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "120"
+            endingLineNumber = "120"
+            landmarkName = "checkWorkingSession()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "27706D47-F340-470B-9E0B-9840EF381E41"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TechresOrder/Scenes/DialogConfirm/view/DialogConfirmViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E6F8FF0A-A49B-450E-AC35-4846C3508F04"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TechresOrder/Scenes/DialogConfirm/view/DialogConfirmViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E6F8FF0A-A49B-450E-AC35-4846C3508F04 - 1d8fc580655f0213"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; () in TECHRES_ORDER.DialogConfirmViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "TECHRES-ORDER"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phunguyenvan/Documents/OVERATE-VNTECH/TECHRES-PROJECTS/IOS/order/TechresOrder/Scenes/DialogConfirm/view/DialogConfirmViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "680">
+               </Location>
+               <Location
+                  uuid = "E6F8FF0A-A49B-450E-AC35-4846C3508F04 - 1d8fc580655f0213"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; () in TECHRES_ORDER.DialogConfirmViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "TECHRES-ORDER"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phunguyenvan/Documents/OVERATE-VNTECH/TECHRES-PROJECTS/IOS/order/TechresOrder/Scenes/DialogConfirm/view/DialogConfirmViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "64">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "20D34C32-0D34-4ECA-9646-C3CBE2025F15"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TechresOrder/Scenes/DialogConfirm/view/DialogConfirmViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "20D34C32-0D34-4ECA-9646-C3CBE2025F15 - 1d8fc580655f0251"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; () in TECHRES_ORDER.DialogConfirmViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "TECHRES-ORDER"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phunguyenvan/Documents/OVERATE-VNTECH/TECHRES-PROJECTS/IOS/order/TechresOrder/Scenes/DialogConfirm/view/DialogConfirmViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  uuid = "20D34C32-0D34-4ECA-9646-C3CBE2025F15 - ea21d67cbf4c8bac"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TECHRES_ORDER.DialogConfirmViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "TECHRES-ORDER"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phunguyenvan/Documents/OVERATE-VNTECH/TECHRES-PROJECTS/IOS/order/TechresOrder/Scenes/DialogConfirm/view/DialogConfirmViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "2316">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7748034F-27AF-4FCA-8D5E-4B5D187DFE0F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TechresOrder/Scenes/ClosedWorkingSession/Extensions/ClosedWorkingSessionViewController+Extension.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "closeWorkingSession()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7748034F-27AF-4FCA-8D5E-4B5D187DFE0F - 4cca67c2271fba5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (TECHRES_ORDER.APIResponse) -&gt; () in TECHRES_ORDER.ClosedWorkingSessionViewController.closeWorkingSession() -&gt; ()"
+                  moduleName = "TECHRES-ORDER"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phunguyenvan/Documents/OVERATE-VNTECH/TECHRES-PROJECTS/IOS/order/TechresOrder/Scenes/ClosedWorkingSession/Extensions/ClosedWorkingSessionViewController+Extension.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "7748034F-27AF-4FCA-8D5E-4B5D187DFE0F - 4cca67c2271fba5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (TECHRES_ORDER.APIResponse) -&gt; () in TECHRES_ORDER.ClosedWorkingSessionViewController.closeWorkingSession() -&gt; ()"
+                  moduleName = "TECHRES-ORDER"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phunguyenvan/Documents/OVERATE-VNTECH/TECHRES-PROJECTS/IOS/order/TechresOrder/Scenes/ClosedWorkingSession/Extensions/ClosedWorkingSessionViewController+Extension.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "368">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0E7F1D21-94C7-4CEC-BFDF-C0ACEA88D87D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TechresOrder/CustomTabbar/CustomTabBarController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "258"
+            endingLineNumber = "258"
+            landmarkName = "callBackReload()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A33AEC99-B401-4EC9-97F5-97C0A15A3C52"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TechresOrder/CustomTabbar/CustomTabBarController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "265"
+            endingLineNumber = "265"
+            landmarkName = "presentModalDialogOpenWorkingSessionViewController(workingSession:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3435BF54-DEA6-4094-8A97-6D91F1EFEB12"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TechresOrder/Scenes/BottomSheetAction/View/CaculatorInputMoneyViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "196"
+            endingLineNumber = "196"
+            landmarkName = "handleEqualOperator()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9D44B721-7E7A-4C27-876A-FEDAB6010BD8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TechresOrder/Scenes/Managements/CreateFood/Extensions/CreateFoodViewController+Extension.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "399"
+            endingLineNumber = "399"
+            landmarkName = "presentModalCaculatorInputMoneyViewController(btnType:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "547C9D51-35D3-4D44-AEE7-AFBF101CE147"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TechresOrder/Scenes/Managements/FoodManagement/Extensions/FoodManagementViewController+Extension.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "registerCell()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "11EF1EAA-3334-4331-849C-43E6AC33C485"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TechresOrder/Scenes/GenerateReport/view/cell/ReportRevenueCommodity/DetailReportRevenueCommodity/view/DetaiRevenueCommodityViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "viewWillAppear(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "346B0E55-F06D-4EEB-8A33-078C07DD0E83"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "56FB9824-119E-42AC-9034-9442B1B82BE8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TechresOrder/Scenes/UpdateProfile/view/addressDialog/view/AddressDialogOfAccountInforViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "201"
+            endingLineNumber = "201"
+            landmarkName = "getCitiesList()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "56FB9824-119E-42AC-9034-9442B1B82BE8 - 718275a8e0990850"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (TECHRES_ORDER.APIResponse) -&gt; () in TECHRES_ORDER.AddressDialogOfAccountInforViewController.getCitiesList() -&gt; ()"
+                  moduleName = "TECHRES-ORDER"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macmini_techres_04/Downloads/order/TechresOrder/Scenes/UpdateProfile/view/addressDialog/view/AddressDialogOfAccountInforViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "201"
+                  endingLineNumber = "201"
+                  offsetFromSymbolStart = "532">
+               </Location>
+               <Location
+                  uuid = "56FB9824-119E-42AC-9034-9442B1B82BE8 - 718275a8e0990850"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (TECHRES_ORDER.APIResponse) -&gt; () in TECHRES_ORDER.AddressDialogOfAccountInforViewController.getCitiesList() -&gt; ()"
+                  moduleName = "TECHRES-ORDER"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macmini_techres_04/Downloads/order/TechresOrder/Scenes/UpdateProfile/view/addressDialog/view/AddressDialogOfAccountInforViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "201"
+                  endingLineNumber = "201"
+                  offsetFromSymbolStart = "716">
+               </Location>
+               <Location
+                  uuid = "56FB9824-119E-42AC-9034-9442B1B82BE8 - 9adb98e114e06acb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (TECHRES_ORDER.Area) -&gt; Swift.Bool in closure #1 (TECHRES_ORDER.APIResponse) -&gt; () in TECHRES_ORDER.AddressDialogOfAccountInforViewController.getCitiesList() -&gt; ()"
+                  moduleName = "TECHRES-ORDER"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macmini_techres_04/Downloads/order/TechresOrder/Scenes/UpdateProfile/view/addressDialog/view/AddressDialogOfAccountInforViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "201"
+                  endingLineNumber = "201"
+                  offsetFromSymbolStart = "80">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "83A42A58-3F6D-4C30-9860-72E24D48C9CB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TechresOrder/Scenes/Brand/View/BrandViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "90"
+            endingLineNumber = "90"
+            landmarkName = "fetBrands()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D7F02A14-2A7C-4C5F-BC63-D0AC5E58F94F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TechresOrder/Scenes/Branch/UpdateBranch/Extensions/UpdateBranchViewController+Extensions.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "163"
+            endingLineNumber = "163"
+            landmarkName = "chooseAvatar()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D7F02A14-2A7C-4C5F-BC63-D0AC5E58F94F - 490f2e635ea36"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TECHRES_ORDER.UpdateBranchViewController.chooseAvatar() -&gt; ()"
+                  moduleName = "TECHRES-ORDER"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macmini_techres_04/Downloads/order/TechresOrder/Scenes/Branch/UpdateBranch/Extensions/UpdateBranchViewController+Extensions.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "151"
+                  endingLineNumber = "151"
+                  offsetFromSymbolStart = "1064">
+               </Location>
+               <Location
+                  uuid = "D7F02A14-2A7C-4C5F-BC63-D0AC5E58F94F - 490f2e635ea36"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TECHRES_ORDER.UpdateBranchViewController.chooseAvatar() -&gt; ()"
+                  moduleName = "TECHRES-ORDER"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macmini_techres_04/Downloads/order/TechresOrder/Scenes/Branch/UpdateBranch/Extensions/UpdateBranchViewController+Extensions.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "151"
+                  endingLineNumber = "151"
+                  offsetFromSymbolStart = "948">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0EDAF6DA-807D-43D5-B9A2-207516C3D5C0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TechresOrder/Scenes/Branch/UpdateBranch/view/UpdateBranchViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "btn_choose_banner(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0EDAF6DA-807D-43D5-B9A2-207516C3D5C0 - fbd8d6f6563806d9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TECHRES_ORDER.UpdateBranchViewController.btn_choose_banner(Any) -&gt; ()"
+                  moduleName = "TECHRES-ORDER"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macmini_techres_04/Downloads/order/TechresOrder/Scenes/Branch/UpdateBranch/view/UpdateBranchViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "0EDAF6DA-807D-43D5-B9A2-207516C3D5C0 - fbd8d6f65638063a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TECHRES_ORDER.UpdateBranchViewController.btn_choose_banner(Any) -&gt; ()"
+                  moduleName = "TECHRES-ORDER"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macmini_techres_04/Downloads/order/TechresOrder/Scenes/Branch/UpdateBranch/view/UpdateBranchViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "80">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "837B3AB6-7F09-4FA9-BCCA-03E9C716E70A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TechresOrder/Scenes/Branch/UpdateBranch/Extensions/UpdateBranchViewController+Extensions.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "151"
+            endingLineNumber = "151"
+            landmarkName = "chooseAvatar()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "837B3AB6-7F09-4FA9-BCCA-03E9C716E70A - 490f2e635e959"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TECHRES_ORDER.UpdateBranchViewController.chooseAvatar() -&gt; ()"
+                  moduleName = "TECHRES-ORDER"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macmini_techres_04/Downloads/order/TechresOrder/Scenes/Branch/UpdateBranch/Extensions/UpdateBranchViewController+Extensions.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "140"
+                  endingLineNumber = "140"
+                  offsetFromSymbolStart = "676">
+               </Location>
+               <Location
+                  uuid = "837B3AB6-7F09-4FA9-BCCA-03E9C716E70A - 490f2e635e959"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TECHRES_ORDER.UpdateBranchViewController.chooseAvatar() -&gt; ()"
+                  moduleName = "TECHRES-ORDER"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macmini_techres_04/Downloads/order/TechresOrder/Scenes/Branch/UpdateBranch/Extensions/UpdateBranchViewController+Extensions.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "140"
+                  endingLineNumber = "140"
+                  offsetFromSymbolStart = "560">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2A5F4B9A-C3F8-4113-91E3-0CC3B30F05A2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TechresOrder/Scenes/Branch/UpdateBranch/Extensions/UpdateBranchViewController+Extensions.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "124"
+            endingLineNumber = "124"
+            landmarkName = "setupProfile()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2A5F4B9A-C3F8-4113-91E3-0CC3B30F05A2 - 488eedc2ce269c06"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TECHRES_ORDER.UpdateBranchViewController.setupProfile() -&gt; ()"
+                  moduleName = "TECHRES-ORDER"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macmini_techres_04/Downloads/order/TechresOrder/Scenes/Branch/UpdateBranch/Extensions/UpdateBranchViewController+Extensions.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "109"
+                  endingLineNumber = "109"
+                  offsetFromSymbolStart = "5004">
+               </Location>
+               <Location
+                  uuid = "2A5F4B9A-C3F8-4113-91E3-0CC3B30F05A2 - 488eedc2ce269c06"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TECHRES_ORDER.UpdateBranchViewController.setupProfile() -&gt; ()"
+                  moduleName = "TECHRES-ORDER"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macmini_techres_04/Downloads/order/TechresOrder/Scenes/Branch/UpdateBranch/Extensions/UpdateBranchViewController+Extensions.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "109"
+                  endingLineNumber = "109"
+                  offsetFromSymbolStart = "4164">
+               </Location>
+               <Location
+                  uuid = "2A5F4B9A-C3F8-4113-91E3-0CC3B30F05A2 - 488eedc2ce269c06"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TECHRES_ORDER.UpdateBranchViewController.setupProfile() -&gt; ()"
+                  moduleName = "TECHRES-ORDER"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macmini_techres_04/Downloads/order/TechresOrder/Scenes/Branch/UpdateBranch/Extensions/UpdateBranchViewController+Extensions.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "109"
+                  endingLineNumber = "109"
+                  offsetFromSymbolStart = "4400">
+               </Location>
+               <Location
+                  uuid = "2A5F4B9A-C3F8-4113-91E3-0CC3B30F05A2 - 488eedc2ce269c06"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TECHRES_ORDER.UpdateBranchViewController.setupProfile() -&gt; ()"
+                  moduleName = "TECHRES-ORDER"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macmini_techres_04/Downloads/order/TechresOrder/Scenes/Branch/UpdateBranch/Extensions/UpdateBranchViewController+Extensions.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "109"
+                  endingLineNumber = "109"
+                  offsetFromSymbolStart = "4412">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

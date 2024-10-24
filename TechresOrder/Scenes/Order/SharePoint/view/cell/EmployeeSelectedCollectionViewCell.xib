@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="EmployeeSelectedCollectionViewCell" customModule="TECHRES___Bán_Hàng" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="90" height="75"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="90" height="75"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Afz-BE-D7Q">
+                        <rect key="frame" x="0.0" y="0.0" width="90" height="75"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ixl-2e-lPj">
+                                <rect key="frame" x="25" y="2" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="5hx-0t-RIX"/>
+                                    <constraint firstAttribute="width" constant="40" id="OZR-KI-17J"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.0" green="0.44705882349999998" blue="0.73725490199999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bhl-cq-FWb">
+                                <rect key="frame" x="40" y="0.0" width="15" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="15" id="OdR-4W-qRU"/>
+                                    <constraint firstAttribute="height" constant="15" id="poE-ow-Zu4"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" image="icon-delete-share-point">
+                                    <attributedString key="attributedTitle"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kelvin nguyen" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kEW-zn-Ey3">
+                                <rect key="frame" x="0.0" y="45" width="90" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="22" id="G9H-5w-67s"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="10"/>
+                                <color key="textColor" red="0.37055522200000002" green="0.37056469920000001" blue="0.37055957319999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Ixl-2e-lPj" firstAttribute="top" secondItem="Afz-BE-D7Q" secondAttribute="top" constant="2" id="7EU-JR-Nrt"/>
+                            <constraint firstItem="kEW-zn-Ey3" firstAttribute="leading" secondItem="Afz-BE-D7Q" secondAttribute="leading" id="Gua-LG-MS3"/>
+                            <constraint firstAttribute="trailing" secondItem="kEW-zn-Ey3" secondAttribute="trailing" id="S5U-kX-P1U"/>
+                            <constraint firstAttribute="trailing" secondItem="bhl-cq-FWb" secondAttribute="trailing" constant="35" id="VBv-3o-kjy"/>
+                            <constraint firstItem="bhl-cq-FWb" firstAttribute="top" secondItem="Afz-BE-D7Q" secondAttribute="top" id="YtX-AX-NqX"/>
+                            <constraint firstItem="Ixl-2e-lPj" firstAttribute="centerX" secondItem="Afz-BE-D7Q" secondAttribute="centerX" id="a2t-o1-YZr"/>
+                            <constraint firstItem="kEW-zn-Ey3" firstAttribute="top" secondItem="Ixl-2e-lPj" secondAttribute="bottom" constant="3" id="rYf-wd-p0O"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="Afz-BE-D7Q" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="90V-zw-ySW"/>
+                <constraint firstItem="Afz-BE-D7Q" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="MsQ-VZ-Z6u"/>
+                <constraint firstAttribute="trailing" secondItem="Afz-BE-D7Q" secondAttribute="trailing" id="TTQ-FV-R6L"/>
+                <constraint firstAttribute="bottom" secondItem="Afz-BE-D7Q" secondAttribute="bottom" id="bF1-bV-OCO"/>
+            </constraints>
+            <size key="customSize" width="95" height="71"/>
+            <connections>
+                <outlet property="avatar" destination="Ixl-2e-lPj" id="fye-Hp-Bw8"/>
+                <outlet property="btnDeleted" destination="bhl-cq-FWb" id="hSl-PC-I8M"/>
+                <outlet property="lbl_name" destination="kEW-zn-Ey3" id="Nm3-jK-TfM"/>
+            </connections>
+            <point key="canvasLocation" x="150.76923076923077" y="-22.39336492890995"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="icon-delete-share-point" width="26" height="26"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

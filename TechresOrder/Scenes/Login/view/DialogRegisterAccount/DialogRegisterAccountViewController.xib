@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DialogRegisterAccountViewController" customModule="TECHRES_ADVISER" customModuleProvider="target">
+            <connections>
+                <outlet property="main_view" destination="T2s-UT-ceK" id="Obv-zA-6Eg"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="T2s-UT-ceK">
+                    <rect key="frame" x="46.666666666666657" y="251" width="300" height="350"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="QUÝ KHÁCH VUI LÒNG CHỌN MỘT TRONG CÁC HÌNH THỨC SAU ĐỂ ĐƯỢC NHÂN VIÊN TƯ VẤN ĐĂNG KÍ SỬ DỤNG DỊCH VỤ" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Llm-P9-ziL">
+                            <rect key="frame" x="20" y="20" width="260" height="75"/>
+                            <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="16"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Of-qy-2WU">
+                            <rect key="frame" x="16" y="125" width="268" height="35"/>
+                            <color key="backgroundColor" name="AccentColor"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="35" id="Hnl-dJ-u0J"/>
+                            </constraints>
+                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" title="ZALO">
+                                <fontDescription key="titleFontDescription" type="boldSystem" pointSize="16"/>
+                            </buttonConfiguration>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="8"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="actionRouteToZalo:" destination="-1" eventType="touchUpInside" id="sGP-4y-qAF"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IOY-pn-pF4">
+                            <rect key="frame" x="16" y="176" width="268" height="35"/>
+                            <color key="backgroundColor" name="AccentColor"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="35" id="Xb2-bG-Ab2"/>
+                            </constraints>
+                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" title="FACEBOOK">
+                                <fontDescription key="titleFontDescription" type="boldSystem" pointSize="16"/>
+                            </buttonConfiguration>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="8"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="actionRouteToFaceBook:" destination="-1" eventType="touchUpInside" id="lJ9-S1-1tl"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hay-Fx-EPF">
+                            <rect key="frame" x="16" y="227" width="268" height="35"/>
+                            <color key="backgroundColor" systemColor="systemRedColor"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="35" id="N4y-Pj-aMf"/>
+                            </constraints>
+                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" title="HOT LINE">
+                                <fontDescription key="titleFontDescription" type="boldSystem" pointSize="16"/>
+                            </buttonConfiguration>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="8"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="actionCallHotLine:" destination="-1" eventType="touchUpInside" id="UkQ-OO-sf9"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hu0-Qj-izx">
+                            <rect key="frame" x="16" y="278" width="268" height="31"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="31" id="7he-mw-HlS"/>
+                            </constraints>
+                            <color key="tintColor" red="0.0" green="0.4431372549" blue="0.73333333329999995" alpha="1" colorSpace="calibratedRGB"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" title="Bỏ qua">
+                                <fontDescription key="titleFontDescription" name="Roboto-Regular" family="Roboto" pointSize="16"/>
+                            </buttonConfiguration>
+                            <connections>
+                                <action selector="actionSkip:" destination="-1" eventType="touchUpInside" id="YH9-2j-ZrM"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="Llm-P9-ziL" secondAttribute="trailing" constant="20" id="7Yd-eX-gJe"/>
+                        <constraint firstAttribute="trailing" secondItem="IOY-pn-pF4" secondAttribute="trailing" constant="16" id="RGe-gW-Ec4"/>
+                        <constraint firstAttribute="trailing" secondItem="4Of-qy-2WU" secondAttribute="trailing" constant="16" id="ZSB-jr-TFY"/>
+                        <constraint firstItem="4Of-qy-2WU" firstAttribute="top" secondItem="Llm-P9-ziL" secondAttribute="bottom" constant="30" id="ZpJ-du-KK9"/>
+                        <constraint firstItem="Hay-Fx-EPF" firstAttribute="top" secondItem="IOY-pn-pF4" secondAttribute="bottom" constant="16" id="aYu-cm-Bo6"/>
+                        <constraint firstAttribute="trailing" secondItem="Hay-Fx-EPF" secondAttribute="trailing" constant="16" id="bJd-Ir-7hk"/>
+                        <constraint firstAttribute="trailing" secondItem="hu0-Qj-izx" secondAttribute="trailing" constant="16" id="bJe-6O-4l2"/>
+                        <constraint firstItem="hu0-Qj-izx" firstAttribute="leading" secondItem="T2s-UT-ceK" secondAttribute="leading" constant="16" id="cH3-F1-5Bv"/>
+                        <constraint firstItem="Llm-P9-ziL" firstAttribute="leading" secondItem="T2s-UT-ceK" secondAttribute="leading" constant="20" id="g7G-vW-1Y3"/>
+                        <constraint firstAttribute="width" constant="300" id="hyQ-9B-JpM"/>
+                        <constraint firstAttribute="height" constant="350" id="iYU-Z4-1ao"/>
+                        <constraint firstItem="IOY-pn-pF4" firstAttribute="leading" secondItem="T2s-UT-ceK" secondAttribute="leading" constant="16" id="kg1-9J-POi"/>
+                        <constraint firstItem="4Of-qy-2WU" firstAttribute="leading" secondItem="T2s-UT-ceK" secondAttribute="leading" constant="16" id="mei-pX-PV7"/>
+                        <constraint firstItem="IOY-pn-pF4" firstAttribute="top" secondItem="4Of-qy-2WU" secondAttribute="bottom" constant="16" id="nL5-wK-aBy"/>
+                        <constraint firstItem="Llm-P9-ziL" firstAttribute="top" secondItem="T2s-UT-ceK" secondAttribute="top" constant="20" id="p21-tD-sIa"/>
+                        <constraint firstItem="hu0-Qj-izx" firstAttribute="top" secondItem="Hay-Fx-EPF" secondAttribute="bottom" constant="16" id="pZe-Fb-K91"/>
+                        <constraint firstItem="Hay-Fx-EPF" firstAttribute="leading" secondItem="T2s-UT-ceK" secondAttribute="leading" constant="16" id="qlP-hc-cHx"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="secondaryLabelColor"/>
+            <constraints>
+                <constraint firstItem="T2s-UT-ceK" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="Adl-Bc-CpB"/>
+                <constraint firstItem="T2s-UT-ceK" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="hc8-R8-Nyq"/>
+            </constraints>
+            <point key="canvasLocation" x="-40.458015267175568" y="-32.394366197183103"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="secondaryLabelColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

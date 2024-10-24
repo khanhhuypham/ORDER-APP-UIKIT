@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Bold.ttf">
+            <string>Roboto-Bold</string>
+        </array>
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="253" id="KGk-i7-Jjw" customClass="OrderHistoryDetailOfFoodAppTableViewCell" customModule="TECHRES_ORDER" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="395" height="253"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="395" height="253"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JRB-MV-XWj">
+                        <rect key="frame" x="0.0" y="0.0" width="395" height="253"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="kot-1w-vDR">
+                                <rect key="frame" x="16" y="10" width="266" height="233"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="752" text="Cafe sữa chua rang muối ớt ăn là chớt Cafe sữa chua rang muối ớt ăn là chớt" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" showsExpansionTextWhenTruncated="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xB5-mM-jjw">
+                                        <rect key="frame" x="0.0" y="0.0" width="266" height="32.666666666666664"/>
+                                        <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="14"/>
+                                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="combo food combo food combo food combo food combo food combo food" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="esO-Vx-ALl">
+                                        <rect key="frame" x="0.0" y="34.666666666666664" width="266" height="26.333333333333336"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                        <color key="textColor" red="0.49019607840000001" green="0.4941176471" blue="0.50588235290000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view contentMode="scaleAspectFill" translatesAutoresizingMaskIntoConstraints="NO" id="wxX-Ik-bU8" userLabel="view_note">
+                                        <rect key="frame" x="0.0" y="63" width="266" height="170"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon-note-food-orange" translatesAutoresizingMaskIntoConstraints="NO" id="WrC-yV-Vpu">
+                                                <rect key="frame" x="0.0" y="77" width="16" height="16"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="16" id="G8r-3x-vY2"/>
+                                                    <constraint firstAttribute="width" constant="16" id="gCc-UT-mii"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="751" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" showsExpansionTextWhenTruncated="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yjj-iR-KV8">
+                                                <rect key="frame" x="21" y="0.0" width="243" height="170"/>
+                                                <string key="text">ít cay nhiều ớt ít cay nhiều ớt  ít cay nhiều ớt. ít cay nhiều ớt. ít cay nhiều ớt. ít cay nhiều ớt. ít cay nhiều ớt ít cay nhiều ớt ít cay nhiều ớt  ít cay nhiều ớt. ít cay nhiều ớt. ít cay nhiều ớt. ít cay nhiều ớt. ít cay nhiều ớt </string>
+                                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="12"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="yjj-iR-KV8" secondAttribute="trailing" constant="2" id="75X-4o-32S"/>
+                                            <constraint firstItem="WrC-yV-Vpu" firstAttribute="centerY" secondItem="wxX-Ik-bU8" secondAttribute="centerY" id="81t-jd-dUU"/>
+                                            <constraint firstItem="yjj-iR-KV8" firstAttribute="top" secondItem="wxX-Ik-bU8" secondAttribute="top" id="9gz-gO-DGn"/>
+                                            <constraint firstAttribute="bottom" secondItem="yjj-iR-KV8" secondAttribute="bottom" id="FlU-ut-QNz"/>
+                                            <constraint firstItem="WrC-yV-Vpu" firstAttribute="leading" secondItem="wxX-Ik-bU8" secondAttribute="leading" id="SUg-FG-69h"/>
+                                            <constraint firstItem="yjj-iR-KV8" firstAttribute="leading" secondItem="WrC-yV-Vpu" secondAttribute="trailing" constant="5" id="jq8-0T-ii3"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="a5x-fA-5ga">
+                                <rect key="frame" x="287" y="108" width="100" height="37.333333333333343"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="9.000.000" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mvV-FK-Pzr">
+                                        <rect key="frame" x="0.0" y="0.0" width="100" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="21" id="rnb-9A-uBl"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="12"/>
+                                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Số lượng" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bUe-NW-Py1">
+                                        <rect key="frame" x="0.0" y="21" width="100" height="16.333333333333329"/>
+                                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="3Qs-c7-vDa"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="kot-1w-vDR" firstAttribute="top" secondItem="JRB-MV-XWj" secondAttribute="top" constant="10" id="5jH-Wd-2We"/>
+                            <constraint firstItem="a5x-fA-5ga" firstAttribute="centerY" secondItem="JRB-MV-XWj" secondAttribute="centerY" id="89w-8J-QUU"/>
+                            <constraint firstAttribute="bottom" secondItem="kot-1w-vDR" secondAttribute="bottom" constant="10" id="Gp6-Ql-pW4"/>
+                            <constraint firstItem="a5x-fA-5ga" firstAttribute="leading" secondItem="kot-1w-vDR" secondAttribute="trailing" constant="5" id="KjV-Sr-N2I"/>
+                            <constraint firstAttribute="trailing" secondItem="a5x-fA-5ga" secondAttribute="trailing" constant="8" id="WJK-dp-fKc"/>
+                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="a5x-fA-5ga" secondAttribute="bottom" constant="10" id="Yeb-bc-742"/>
+                            <constraint firstItem="kot-1w-vDR" firstAttribute="leading" secondItem="JRB-MV-XWj" secondAttribute="leading" constant="16" id="pna-m4-h3b"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="JRB-MV-XWj" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="8W9-Bz-Vo1"/>
+                    <constraint firstItem="JRB-MV-XWj" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="BSz-Ni-4G6"/>
+                    <constraint firstAttribute="bottom" secondItem="JRB-MV-XWj" secondAttribute="bottom" id="I5j-Pe-HRa"/>
+                    <constraint firstAttribute="trailing" secondItem="JRB-MV-XWj" secondAttribute="trailing" id="P74-cb-2l6"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="lbl_children_food" destination="esO-Vx-ALl" id="VV6-jk-iuW"/>
+                <outlet property="lbl_name" destination="xB5-mM-jjw" id="8K4-a8-Rsj"/>
+                <outlet property="lbl_note" destination="yjj-iR-KV8" id="LVu-yw-A4B"/>
+                <outlet property="lbl_quantity" destination="bUe-NW-Py1" id="qA3-2Q-zzZ"/>
+                <outlet property="lbl_total_amount" destination="mvV-FK-Pzr" id="UdR-dK-ulc"/>
+                <outlet property="view_note" destination="wxX-Ik-bU8" id="gRh-Xn-ZM2"/>
+            </connections>
+            <point key="canvasLocation" x="48.091603053435115" y="41.197183098591552"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icon-note-food-orange" width="14" height="14"/>
+    </resources>
+</document>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="432" id="KGk-i7-Jjw" customClass="OrderItemPrintFormatTableViewCell" customModule="TECHRES_ORDER" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="427" height="432"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="427" height="432"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XSE-fr-vpO">
+                        <rect key="frame" x="0.0" y="0.0" width="427" height="431"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="Vpu-MR-UUF">
+                                <rect key="frame" x="0.0" y="15" width="304" height="401"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="752" text="Cafe sữa chua rang muối ớt ăn là chớt Cafe sữa chua rang muối ớt ăn là chớt" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" showsExpansionTextWhenTruncated="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="egu-Ua-3bF">
+                                        <rect key="frame" x="0.0" y="0.0" width="304" height="71.666666666666671"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="combo food combo food combo food combo food combo food combo food" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W6M-oF-ACa">
+                                        <rect key="frame" x="0.0" y="73.666666666666671" width="304" height="43"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view contentMode="scaleAspectFill" translatesAutoresizingMaskIntoConstraints="NO" id="1OR-rm-8u9" userLabel="view_note">
+                                        <rect key="frame" x="0.0" y="118.66666666666666" width="304" height="282.33333333333337"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="751" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" showsExpansionTextWhenTruncated="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="raK-KY-vdG">
+                                                <rect key="frame" x="10" y="0.0" width="292" height="282.33333333333331"/>
+                                                <string key="text">ít cay nhiều ớt ít cay nhiều ớt  ít cay nhiều ớt. ít cay nhiều ớt. ít cay nhiều ớt. ít cay nhiều ớt. ít cay nhiều ớt ít cay nhiều ớt ít cay nhiều ớt  ít cay nhiều ớt. ít cay nhiều ớt. ít cay nhiều ớt. ít cay nhiều ớt. ít cay nhiều ớt </string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="highlightedColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="raK-KY-vdG" firstAttribute="leading" secondItem="1OR-rm-8u9" secondAttribute="leading" constant="10" id="6Fx-El-05X"/>
+                                            <constraint firstItem="raK-KY-vdG" firstAttribute="top" secondItem="1OR-rm-8u9" secondAttribute="top" id="8hM-VZ-FoR"/>
+                                            <constraint firstAttribute="trailing" secondItem="raK-KY-vdG" secondAttribute="trailing" constant="2" id="ee6-uO-c7o"/>
+                                            <constraint firstAttribute="bottom" secondItem="raK-KY-vdG" secondAttribute="bottom" id="hGN-ko-x4d"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Số lượng" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CQz-RR-fWN">
+                                <rect key="frame" x="317" y="0.0" width="100" height="431"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="t1B-L1-Bi2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="Vpu-MR-UUF" secondAttribute="bottom" constant="15" id="B2c-hb-jm1"/>
+                            <constraint firstAttribute="bottom" secondItem="CQz-RR-fWN" secondAttribute="bottom" id="Cl5-v1-Tbj"/>
+                            <constraint firstItem="CQz-RR-fWN" firstAttribute="leading" secondItem="Vpu-MR-UUF" secondAttribute="trailing" constant="13" id="Yfo-9M-d36"/>
+                            <constraint firstItem="Vpu-MR-UUF" firstAttribute="leading" secondItem="XSE-fr-vpO" secondAttribute="leading" id="eRC-ov-hrl"/>
+                            <constraint firstItem="Vpu-MR-UUF" firstAttribute="top" secondItem="XSE-fr-vpO" secondAttribute="top" constant="15" id="ioe-Gv-iid"/>
+                            <constraint firstAttribute="trailing" secondItem="CQz-RR-fWN" secondAttribute="trailing" constant="10" id="pyn-M0-sGl"/>
+                            <constraint firstItem="CQz-RR-fWN" firstAttribute="top" secondItem="XSE-fr-vpO" secondAttribute="top" id="xiX-NJ-ggR"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="XSE-fr-vpO" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Irb-QT-QED"/>
+                    <constraint firstItem="XSE-fr-vpO" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="YaH-4U-GzI"/>
+                    <constraint firstAttribute="bottom" secondItem="XSE-fr-vpO" secondAttribute="bottom" constant="1" id="fcm-rs-TY4"/>
+                    <constraint firstAttribute="trailing" secondItem="XSE-fr-vpO" secondAttribute="trailing" id="jBf-7K-e2C"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="container_view" destination="XSE-fr-vpO" id="SOy-b7-vyD"/>
+                <outlet property="lbl_item_addition" destination="W6M-oF-ACa" id="SlJ-V6-gUE"/>
+                <outlet property="lbl_item_name" destination="egu-Ua-3bF" id="sCy-6k-P0G"/>
+                <outlet property="lbl_note" destination="raK-KY-vdG" id="y85-B2-8db"/>
+                <outlet property="lbl_quantity" destination="CQz-RR-fWN" id="Ylp-sz-m1i"/>
+                <outlet property="view_note" destination="1OR-rm-8u9" id="nHx-0C-4Ak"/>
+            </connections>
+            <point key="canvasLocation" x="35.877862595419849" y="97.887323943661983"/>
+        </tableViewCell>
+    </objects>
+</document>

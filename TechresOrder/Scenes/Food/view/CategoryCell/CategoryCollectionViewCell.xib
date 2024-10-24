@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CategoryCollectionViewCell" customModule="TECHRES_ORDER" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="167" height="88"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="167" height="88"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sl2-OI-2IQ">
+                        <rect key="frame" x="0.0" y="0.0" width="167" height="88"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="J3z-BJ-xZN" userLabel="bubbleView">
+                                <rect key="frame" x="2" y="29" width="163" height="30"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1yY-3y-fmu">
+                                        <rect key="frame" x="10" y="0.0" width="143" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="13"/>
+                                        <color key="textColor" red="1" green="0.5450980392" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="1yY-3y-fmu" firstAttribute="top" secondItem="J3z-BJ-xZN" secondAttribute="top" id="C9h-P1-pGh"/>
+                                    <constraint firstAttribute="trailing" secondItem="1yY-3y-fmu" secondAttribute="trailing" constant="10" id="O7S-Mm-sei"/>
+                                    <constraint firstAttribute="bottom" secondItem="1yY-3y-fmu" secondAttribute="bottom" id="UP9-Xe-IqF"/>
+                                    <constraint firstAttribute="height" constant="30" id="dOO-da-yRq"/>
+                                    <constraint firstItem="1yY-3y-fmu" firstAttribute="leading" secondItem="J3z-BJ-xZN" secondAttribute="leading" constant="10" id="faY-HW-9fK"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="1" green="0.5450980392" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dFI-7d-YOe">
+                                <rect key="frame" x="0.0" y="0.0" width="167" height="88"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title=""/>
+                                <buttonConfiguration key="configuration" style="plain" title=""/>
+                                <connections>
+                                    <action selector="actionChooseCategory:" destination="gTV-IL-0wX" eventType="touchUpInside" id="t3n-3T-ydy"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="J3z-BJ-xZN" firstAttribute="leading" secondItem="Sl2-OI-2IQ" secondAttribute="leading" constant="2" id="04o-oX-90b"/>
+                            <constraint firstItem="dFI-7d-YOe" firstAttribute="top" secondItem="Sl2-OI-2IQ" secondAttribute="top" id="AP2-aw-Byd"/>
+                            <constraint firstAttribute="trailing" secondItem="dFI-7d-YOe" secondAttribute="trailing" id="GsL-b9-PPx"/>
+                            <constraint firstItem="J3z-BJ-xZN" firstAttribute="centerY" secondItem="Sl2-OI-2IQ" secondAttribute="centerY" id="LDv-Ve-Lqf"/>
+                            <constraint firstAttribute="trailing" secondItem="J3z-BJ-xZN" secondAttribute="trailing" constant="2" id="cdl-sz-ycj"/>
+                            <constraint firstItem="J3z-BJ-xZN" firstAttribute="centerX" secondItem="Sl2-OI-2IQ" secondAttribute="centerX" id="cng-Ze-PaC"/>
+                            <constraint firstItem="dFI-7d-YOe" firstAttribute="leading" secondItem="Sl2-OI-2IQ" secondAttribute="leading" id="iOz-SY-Xyp"/>
+                            <constraint firstAttribute="bottom" secondItem="dFI-7d-YOe" secondAttribute="bottom" id="xP7-Ng-8qc"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Sl2-OI-2IQ" secondAttribute="trailing" id="WNI-yY-yDI"/>
+                <constraint firstItem="Sl2-OI-2IQ" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="hIU-dR-FVE"/>
+                <constraint firstItem="Sl2-OI-2IQ" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="hTa-SH-vCT"/>
+                <constraint firstAttribute="bottom" secondItem="Sl2-OI-2IQ" secondAttribute="bottom" id="nQq-je-8fV"/>
+            </constraints>
+            <size key="customSize" width="167" height="88"/>
+            <connections>
+                <outlet property="bubbleView" destination="J3z-BJ-xZN" id="9ZN-v2-dch"/>
+                <outlet property="lbl_category_name" destination="1yY-3y-fmu" id="VmC-67-dM0"/>
+            </connections>
+            <point key="canvasLocation" x="89.312977099236633" y="-19.014084507042256"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

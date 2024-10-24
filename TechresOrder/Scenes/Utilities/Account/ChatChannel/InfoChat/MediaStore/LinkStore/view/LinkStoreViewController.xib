@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LinkStoreViewController" customModule="TECHRES_SEEMT" customModuleProvider="target">
+            <connections>
+                <outlet property="root_view_empty_data" destination="ENg-Br-hba" id="erU-gt-PLW"/>
+                <outlet property="tableView" destination="02D-dx-Nuo" id="pap-Sn-5Bf"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="02D-dx-Nuo">
+                    <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </tableView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ENg-Br-hba" userLabel="Root View Empty Data">
+                    <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="avU-1y-pFy">
+                            <rect key="frame" x="134.33333333333334" y="321.33333333333331" width="124.66666666666666" height="116.66666666666669"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img-no-data" translatesAutoresizingMaskIntoConstraints="NO" id="ctl-6G-0EO">
+                                    <rect key="frame" x="12.333333333333314" y="0.0" width="100" height="100"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="100" id="CJh-Iw-9t2"/>
+                                        <constraint firstAttribute="width" constant="100" id="bvj-f0-dN6"/>
+                                    </constraints>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="KHÔNG CÓ DỮ LIỆU" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KGt-lJ-OwY">
+                                    <rect key="frame" x="0.0" y="100" width="124.66666666666667" height="16.666666666666671"/>
+                                    <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                                    <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="KGt-lJ-OwY" firstAttribute="leading" secondItem="avU-1y-pFy" secondAttribute="leading" id="FEq-XJ-AlG"/>
+                                <constraint firstItem="ctl-6G-0EO" firstAttribute="top" secondItem="avU-1y-pFy" secondAttribute="top" id="IH3-lN-aaq"/>
+                                <constraint firstItem="KGt-lJ-OwY" firstAttribute="top" secondItem="ctl-6G-0EO" secondAttribute="bottom" id="dIV-35-fZU"/>
+                                <constraint firstAttribute="trailing" secondItem="KGt-lJ-OwY" secondAttribute="trailing" id="lMd-Gl-c7d"/>
+                                <constraint firstAttribute="bottom" secondItem="KGt-lJ-OwY" secondAttribute="bottom" id="ta5-wY-2ee"/>
+                                <constraint firstItem="ctl-6G-0EO" firstAttribute="centerX" secondItem="avU-1y-pFy" secondAttribute="centerX" id="zI2-Gj-YxD"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemGray6Color"/>
+                    <constraints>
+                        <constraint firstItem="avU-1y-pFy" firstAttribute="centerX" secondItem="ENg-Br-hba" secondAttribute="centerX" id="LY2-OB-rf8"/>
+                        <constraint firstItem="avU-1y-pFy" firstAttribute="centerY" secondItem="ENg-Br-hba" secondAttribute="centerY" id="p5A-Eo-h3a"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="ENg-Br-hba" secondAttribute="bottom" id="9IF-2C-5N8"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="02D-dx-Nuo" secondAttribute="trailing" id="A8N-ig-Mzu"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="top" secondItem="02D-dx-Nuo" secondAttribute="top" id="EPX-mH-oKp"/>
+                <constraint firstItem="ENg-Br-hba" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="T2b-ce-qgH"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="top" secondItem="ENg-Br-hba" secondAttribute="top" id="VlJ-38-FAU"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="ENg-Br-hba" secondAttribute="trailing" id="sHy-La-oPf"/>
+                <constraint firstItem="02D-dx-Nuo" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="sWU-hn-VPe"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="02D-dx-Nuo" secondAttribute="bottom" id="zol-ra-gi8"/>
+            </constraints>
+            <point key="canvasLocation" x="132" y="-11"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="img-no-data" width="220" height="170"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray6Color">
+            <color red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

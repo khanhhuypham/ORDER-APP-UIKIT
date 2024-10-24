@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Bold.ttf">
+            <string>Roboto-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="InformationApplicationViewController" customModule="TECHRES_ORDER" customModuleProvider="target">
+            <connections>
+                <outlet property="tableView" destination="wFo-Rf-Lkc" id="i9A-mw-fFf"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fcc-1x-dzm">
+                    <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nbt-Os-Odo">
+                            <rect key="frame" x="0.0" y="0.0" width="393" height="40"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1Rl-II-CDl">
+                                    <rect key="frame" x="0.0" y="0.0" width="60" height="40"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="60" id="LPJ-fX-WFu"/>
+                                    </constraints>
+                                    <color key="tintColor" systemColor="systemGray4Color"/>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    <state key="normal" image="icon-back-blue">
+                                        <attributedString key="attributedTitle"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="actionBack:" destination="-1" eventType="touchUpInside" id="DdX-Me-Hld"/>
+                                    </connections>
+                                </button>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thông tin ứng dụng" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vg1-Pc-QT9">
+                                    <rect key="frame" x="126.66666666666667" y="10.666666666666671" width="139.66666666666663" height="19"/>
+                                    <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="16"/>
+                                    <color key="textColor" systemColor="systemOrangeColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstItem="1Rl-II-CDl" firstAttribute="leading" secondItem="nbt-Os-Odo" secondAttribute="leading" id="0zV-Ra-w1b"/>
+                                <constraint firstAttribute="bottom" secondItem="1Rl-II-CDl" secondAttribute="bottom" id="3DX-7U-WID"/>
+                                <constraint firstItem="1Rl-II-CDl" firstAttribute="top" secondItem="nbt-Os-Odo" secondAttribute="top" id="N1t-H6-du9"/>
+                                <constraint firstItem="vg1-Pc-QT9" firstAttribute="centerX" secondItem="nbt-Os-Odo" secondAttribute="centerX" id="cSC-u0-jBd"/>
+                                <constraint firstAttribute="height" constant="40" id="fnK-d8-PBM"/>
+                                <constraint firstItem="vg1-Pc-QT9" firstAttribute="centerY" secondItem="nbt-Os-Odo" secondAttribute="centerY" id="u1x-QV-akL"/>
+                            </constraints>
+                        </view>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="wFo-Rf-Lkc">
+                            <rect key="frame" x="0.0" y="40" width="393" height="719"/>
+                            <color key="backgroundColor" systemColor="systemGray6Color"/>
+                        </tableView>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemGray6Color"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="wFo-Rf-Lkc" secondAttribute="trailing" id="957-vP-etR"/>
+                        <constraint firstItem="nbt-Os-Odo" firstAttribute="top" secondItem="Fcc-1x-dzm" secondAttribute="top" id="JX9-Z9-Yxv"/>
+                        <constraint firstAttribute="trailing" secondItem="nbt-Os-Odo" secondAttribute="trailing" id="SvE-te-YJa"/>
+                        <constraint firstItem="wFo-Rf-Lkc" firstAttribute="leading" secondItem="Fcc-1x-dzm" secondAttribute="leading" id="bA3-sH-QIR"/>
+                        <constraint firstItem="nbt-Os-Odo" firstAttribute="leading" secondItem="Fcc-1x-dzm" secondAttribute="leading" id="iX7-Ai-XUy"/>
+                        <constraint firstAttribute="bottom" secondItem="wFo-Rf-Lkc" secondAttribute="bottom" id="lnj-QP-I2v"/>
+                        <constraint firstItem="wFo-Rf-Lkc" firstAttribute="top" secondItem="nbt-Os-Odo" secondAttribute="bottom" id="mo6-dQ-Vfi"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="Fcc-1x-dzm" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="1dq-0m-WX7"/>
+                <constraint firstItem="Fcc-1x-dzm" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="Zg8-El-u8t"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="Fcc-1x-dzm" secondAttribute="bottom" id="gNX-oH-oEw"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Fcc-1x-dzm" secondAttribute="trailing" id="lKv-34-5g3"/>
+            </constraints>
+            <point key="canvasLocation" x="131" y="-11"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icon-back-blue" width="8.6666669845581055" height="17.333333969116211"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray4Color">
+            <color red="0.81960784313725488" green="0.81960784313725488" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGray6Color">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

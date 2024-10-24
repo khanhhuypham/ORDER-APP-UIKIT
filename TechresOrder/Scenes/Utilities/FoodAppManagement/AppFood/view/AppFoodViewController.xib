@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AppFoodViewController" customModule="TECHRES_ORDER" customModuleProvider="target">
+            <connections>
+                <outlet property="tableView" destination="pds-cw-sDN" id="kES-xf-ktg"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UmY-c7-fjc">
+                    <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yJh-ZH-ume">
+                            <rect key="frame" x="0.0" y="0.0" width="393" height="50"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ebk-GT-sUt">
+                                    <rect key="frame" x="16" y="0.0" width="50" height="50"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="50" id="K91-GY-iMI"/>
+                                        <constraint firstAttribute="height" constant="50" id="qdQ-Ul-tyZ"/>
+                                    </constraints>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    <state key="normal" image="icon-prev">
+                                        <attributedString key="attributedTitle"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="actionBack:" destination="-1" eventType="touchUpInside" id="bYL-hS-mMK"/>
+                                    </connections>
+                                </button>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="KẾT NỐI ĐỐI TÁC APP FOOD" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R65-os-HhW">
+                                    <rect key="frame" x="87.666666666666671" y="10" width="217.66666666666663" height="30"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="30" id="CpY-qy-pd3"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                    <color key="textColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstItem="R65-os-HhW" firstAttribute="centerY" secondItem="yJh-ZH-ume" secondAttribute="centerY" id="Cbh-cz-Jft"/>
+                                <constraint firstItem="ebk-GT-sUt" firstAttribute="centerY" secondItem="yJh-ZH-ume" secondAttribute="centerY" id="MxK-aT-gQZ"/>
+                                <constraint firstAttribute="height" constant="50" id="NyM-df-DQ7"/>
+                                <constraint firstItem="ebk-GT-sUt" firstAttribute="leading" secondItem="yJh-ZH-ume" secondAttribute="leading" constant="16" id="fIl-sg-Nc0"/>
+                                <constraint firstItem="R65-os-HhW" firstAttribute="centerX" secondItem="yJh-ZH-ume" secondAttribute="centerX" id="fXK-YS-6rq"/>
+                            </constraints>
+                        </view>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="pds-cw-sDN">
+                            <rect key="frame" x="0.0" y="60" width="393" height="699"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        </tableView>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemGray6Color"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="pds-cw-sDN" secondAttribute="bottom" id="9cF-X7-dwC"/>
+                        <constraint firstAttribute="trailing" secondItem="pds-cw-sDN" secondAttribute="trailing" id="DmW-WP-jPI"/>
+                        <constraint firstItem="yJh-ZH-ume" firstAttribute="top" secondItem="UmY-c7-fjc" secondAttribute="top" id="Uv5-ch-NgU"/>
+                        <constraint firstAttribute="trailing" secondItem="yJh-ZH-ume" secondAttribute="trailing" id="aP5-DJ-9LZ"/>
+                        <constraint firstItem="yJh-ZH-ume" firstAttribute="leading" secondItem="UmY-c7-fjc" secondAttribute="leading" id="cIR-tq-FwS"/>
+                        <constraint firstItem="pds-cw-sDN" firstAttribute="top" secondItem="yJh-ZH-ume" secondAttribute="bottom" constant="10" id="mgG-Xz-SeP"/>
+                        <constraint firstItem="pds-cw-sDN" firstAttribute="leading" secondItem="UmY-c7-fjc" secondAttribute="leading" id="n9z-9b-pdc"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="UmY-c7-fjc" secondAttribute="bottom" id="GtT-E0-2kK"/>
+                <constraint firstItem="UmY-c7-fjc" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="QmT-i2-vPr"/>
+                <constraint firstItem="UmY-c7-fjc" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="elH-Gy-y3a"/>
+                <constraint firstAttribute="trailing" secondItem="UmY-c7-fjc" secondAttribute="trailing" id="xsY-5p-hlA"/>
+            </constraints>
+            <point key="canvasLocation" x="107.63358778625954" y="-32.394366197183103"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icon-prev" width="22" height="22"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray6Color">
+            <color red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

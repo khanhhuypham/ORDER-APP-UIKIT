@@ -1,0 +1,203 @@
+PODS:
+  - Alamofire (5.9.1)
+  - BmoViewPager (5.2.0)
+  - Charts (4.1.0):
+    - Charts/Core (= 4.1.0)
+  - Charts/Core (4.1.0):
+    - SwiftAlgorithms (~> 1.0)
+  - Differentiator (5.0.0)
+  - HXPhotoPicker (4.2.3):
+    - HXPhotoPicker/Full (= 4.2.3)
+  - HXPhotoPicker/Camera (4.2.3):
+    - HXPhotoPicker/Camera/Lite (= 4.2.3)
+    - HXPhotoPicker/Camera/Location (= 4.2.3)
+  - HXPhotoPicker/Camera/Lite (4.2.3):
+    - HXPhotoPicker/Core
+  - HXPhotoPicker/Camera/Location (4.2.3):
+    - HXPhotoPicker/Camera/Lite
+  - HXPhotoPicker/Core (4.2.3):
+    - HXPhotoPicker/Resources
+  - HXPhotoPicker/Editor (4.2.3):
+    - HXPhotoPicker/Editor/KF (= 4.2.3)
+    - HXPhotoPicker/Editor/Lite (= 4.2.3)
+  - HXPhotoPicker/Editor/KF (4.2.3):
+    - HXPhotoPicker/Editor/Lite
+    - HXPhotoPicker/EditorView/KF
+    - Kingfisher (~> 7.0)
+  - HXPhotoPicker/Editor/Lite (4.2.3):
+    - HXPhotoPicker/EditorView/Lite
+  - HXPhotoPicker/EditorView/KF (4.2.3):
+    - HXPhotoPicker/EditorView/Lite
+    - Kingfisher (~> 7.0)
+  - HXPhotoPicker/EditorView/Lite (4.2.3):
+    - HXPhotoPicker/Core
+  - HXPhotoPicker/Full (4.2.3):
+    - HXPhotoPicker/Camera
+    - HXPhotoPicker/Editor
+    - HXPhotoPicker/Picker
+  - HXPhotoPicker/Picker (4.2.3):
+    - HXPhotoPicker/Picker/KF (= 4.2.3)
+    - HXPhotoPicker/Picker/Lite (= 4.2.3)
+  - HXPhotoPicker/Picker/KF (4.2.3):
+    - HXPhotoPicker/Picker/Lite
+    - Kingfisher (~> 7.0)
+  - HXPhotoPicker/Picker/Lite (4.2.3):
+    - HXPhotoPicker/Core
+  - HXPhotoPicker/Resources (4.2.3)
+  - JonAlert (1.0.0)
+  - Kingfisher (7.12.0)
+  - Moya/Core (15.0.0):
+    - Alamofire (~> 5.0)
+  - Moya/RxSwift (15.0.0):
+    - Moya/Core
+    - RxSwift (~> 6.0)
+  - MSPeekCollectionViewDelegateImplementation (3.2.0)
+  - ObjectMapper (4.2.0)
+  - OTPFieldView (1.0.1)
+  - Realm (10.51.0):
+    - Realm/Headers (= 10.51.0)
+  - Realm/Headers (10.51.0)
+  - RealmSwift (10.51.0):
+    - Realm (= 10.51.0)
+  - RxBinding (0.5):
+    - RxCocoa (~> 6)
+    - RxSwift (~> 6)
+  - RxCocoa (6.7.1):
+    - RxRelay (= 6.7.1)
+    - RxSwift (= 6.7.1)
+  - RxDataSources (5.0.0):
+    - Differentiator (~> 5.0)
+    - RxCocoa (~> 6.0)
+    - RxSwift (~> 6.0)
+  - RxGesture (4.0.4):
+    - RxCocoa (~> 6.0)
+    - RxSwift (~> 6.0)
+  - RxRelay (6.7.1):
+    - RxSwift (= 6.7.1)
+  - RxSwift (6.7.1)
+  - RxSwiftExt (6.2.1):
+    - RxSwiftExt/Core (= 6.2.1)
+    - RxSwiftExt/RxCocoa (= 6.2.1)
+  - RxSwiftExt/Core (6.2.1):
+    - RxSwift (~> 6.0)
+  - RxSwiftExt/RxCocoa (6.2.1):
+    - RxCocoa (~> 6.0)
+    - RxSwiftExt/Core
+  - SnapKit (5.7.1)
+  - SNCollectionViewLayout (1.0.1)
+  - Socket.IO-Client-Swift (16.1.0):
+    - Starscream (~> 4.0.6)
+  - SocketRocket (0.7.0)
+  - Starscream (4.0.8)
+  - SwiftAlgorithms (1.0.0)
+  - TagListView (1.4.1)
+  - Wormholy (1.7.0)
+  - ZLPhotoBrowser (4.5.3):
+    - ZLPhotoBrowser/Core (= 4.5.3)
+  - ZLPhotoBrowser/Core (4.5.3)
+
+DEPENDENCIES:
+  - Alamofire
+  - BmoViewPager
+  - Charts
+  - HXPhotoPicker (from `https://github.com/SilenceLove/HXPhotoPicker.git`)
+  - JonAlert (from `https://github.com/jonSurrey/JonAlert.git`, branch `master`)
+  - Kingfisher
+  - Moya/RxSwift (~> 15.0)
+  - MSPeekCollectionViewDelegateImplementation
+  - ObjectMapper
+  - OTPFieldView
+  - RealmSwift
+  - RxBinding
+  - RxCocoa
+  - RxDataSources
+  - RxGesture
+  - RxSwift
+  - RxSwiftExt
+  - SnapKit
+  - SNCollectionViewLayout
+  - Socket.IO-Client-Swift
+  - SocketRocket
+  - TagListView
+  - Wormholy
+  - ZLPhotoBrowser
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - BmoViewPager
+    - Charts
+    - Differentiator
+    - Kingfisher
+    - Moya
+    - MSPeekCollectionViewDelegateImplementation
+    - ObjectMapper
+    - OTPFieldView
+    - Realm
+    - RealmSwift
+    - RxBinding
+    - RxCocoa
+    - RxDataSources
+    - RxGesture
+    - RxRelay
+    - RxSwift
+    - RxSwiftExt
+    - SnapKit
+    - SNCollectionViewLayout
+    - Socket.IO-Client-Swift
+    - SocketRocket
+    - Starscream
+    - SwiftAlgorithms
+    - TagListView
+    - Wormholy
+    - ZLPhotoBrowser
+
+EXTERNAL SOURCES:
+  HXPhotoPicker:
+    :git: https://github.com/SilenceLove/HXPhotoPicker.git
+  JonAlert:
+    :branch: master
+    :git: https://github.com/jonSurrey/JonAlert.git
+
+CHECKOUT OPTIONS:
+  HXPhotoPicker:
+    :commit: 0b83d2ff79f4eebda17e7742a024ee3d025967b9
+    :git: https://github.com/SilenceLove/HXPhotoPicker.git
+  JonAlert:
+    :commit: c37cdd9d82fb5bb0af8952a4299d7c9b20e3237e
+    :git: https://github.com/jonSurrey/JonAlert.git
+
+SPEC CHECKSUMS:
+  Alamofire: f36a35757af4587d8e4f4bfa223ad10be2422b8c
+  BmoViewPager: f06da0dd20d115e2ced117268465230d922624b7
+  Charts: ce0768268078eee0336f122c3c4ca248e4e204c5
+  Differentiator: e8497ceab83c1b10ca233716d547b9af21b9344d
+  HXPhotoPicker: 0e1d64a961753baa821859f7044cfe757b0b4865
+  JonAlert: b254830587addcc52d0e9ee871f43f4d6194d342
+  Kingfisher: 53a10ea35051a436b5fb626ca2dd8f3144d755e9
+  Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
+  MSPeekCollectionViewDelegateImplementation: be35a217bd302976a9e4476151be992c1f150127
+  ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
+  OTPFieldView: 700a752fe62c41d1c4914c78aa500fb30d97c255
+  Realm: 7e75a684c16aca7c6a5db9c70caebf37f07dcee5
+  RealmSwift: 35bdffb8a504659d1b3e3f45b624e93ac0ec89e3
+  RxBinding: e3c76d02d0ee3f1a306a0fb8e8ef6f2eda65a375
+  RxCocoa: f5609cb4637587a7faa99c5d5787e3ad582b75a4
+  RxDataSources: aa47cc1ed6c500fa0dfecac5c979b723542d79cf
+  RxGesture: f3efb47ed2d26a8082f7b660d4a59970e275a7f8
+  RxRelay: 4151ba01152436b08271e08410135e099880eae5
+  RxSwift: b9a93a26031785159e11abd40d1a55bcb8057e52
+  RxSwiftExt: 43aaacb6a4d3c69c55e9d1cf4f79920043d13583
+  SnapKit: d612e99e678a2d3b95bf60b0705ed0a35c03484a
+  SNCollectionViewLayout: 9991574aa022237c75acf0e3dc890b09aa4e4c31
+  Socket.IO-Client-Swift: ee4b8f80a3db18dd7f32b266ddf273310609443c
+  SocketRocket: abac6f5de4d4d62d24e11868d7a2f427e0ef940d
+  Starscream: 19b5533ddb925208db698f0ac508a100b884a1b9
+  SwiftAlgorithms: 38dda4731d19027fdeee1125f973111bf3386b53
+  TagListView: a1c236d17960a0cf64156725a76ce6d73ebce2be
+  Wormholy: ab1c8c2f02f58587a0941deb0088555ffbf039a1
+  ZLPhotoBrowser: 6955723c7ec2be71f45c6f89ba4d2bec83e73d68
+
+PODFILE CHECKSUM: d8dcd71678507f4ce4dee605f653aa18be41a033
+
+COCOAPODS: 1.15.2

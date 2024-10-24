@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "583C65CF-735C-4E50-8B41-4EA49E0AD1FD"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "96A58B57-036B-43E5-911B-E384384DD2B4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TechresOrder/Scenes/OrderDetail/AddOther/OtherFood/view/OtherFoodViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "96A58B57-036B-43E5-911B-E384384DD2B4 - 62ce9904ea45a9c5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TECHRES_ORDER.OtherFoodViewController.count.getter : Swift.Int"
+                  moduleName = "TECHRES-ORDER"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/noname/Documents/nguyenvanhien/order/TechresOrder/Scenes/OrderDetail/AddOther/OtherFood/view/OtherFoodViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0">
+               </Location>
+               <Location
+                  uuid = "96A58B57-036B-43E5-911B-E384384DD2B4 - eee7875902a6aa7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TECHRES_ORDER.OtherFoodViewController.count.setter : Swift.Int"
+                  moduleName = "TECHRES-ORDER"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/noname/Documents/nguyenvanhien/order/TechresOrder/Scenes/OrderDetail/AddOther/OtherFood/view/OtherFoodViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42">
+               </Location>
+               <Location
+                  uuid = "96A58B57-036B-43E5-911B-E384384DD2B4 - 1c8887d2c9c87bb6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TECHRES_ORDER.OtherFoodViewController.count.modify : Swift.Int"
+                  moduleName = "TECHRES-ORDER"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/noname/Documents/nguyenvanhien/order/TechresOrder/Scenes/OrderDetail/AddOther/OtherFood/view/OtherFoodViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42">
+               </Location>
+               <Location
+                  uuid = "96A58B57-036B-43E5-911B-E384384DD2B4 - d266f76a91c77dd9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TECHRES_ORDER.OtherFoodViewController.count.modify : Swift.Int with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "TECHRES-ORDER"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/noname/Documents/nguyenvanhien/order/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0">
+               </Location>
+               <Location
+                  uuid = "96A58B57-036B-43E5-911B-E384384DD2B4 - cebb37dc6ad9da7d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TECHRES_ORDER.OtherFoodViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; TECHRES_ORDER.OtherFoodViewController"
+                  moduleName = "TECHRES-ORDER"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/noname/Documents/nguyenvanhien/order/TechresOrder/Scenes/OrderDetail/AddOther/OtherFood/view/OtherFoodViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42">
+               </Location>
+               <Location
+                  uuid = "96A58B57-036B-43E5-911B-E384384DD2B4 - 35e064a051ef3a3f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TECHRES_ORDER.OtherFoodViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;TECHRES_ORDER.OtherFoodViewController&gt;"
+                  moduleName = "TECHRES-ORDER"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/noname/Documents/nguyenvanhien/order/TechresOrder/Scenes/OrderDetail/AddOther/OtherFood/view/OtherFoodViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A2A77C2C-6DDC-46BC-AB98-FD060042E03F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TechresOrder/Scenes/OrderDetail/AddOther/OtherFood/view/OtherFoodViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "OtherFoodViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "A2A77C2C-6DDC-46BC-AB98-FD060042E03F - cebb37dc6ad9d8e1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TECHRES_ORDER.OtherFoodViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; TECHRES_ORDER.OtherFoodViewController"
+                  moduleName = "TECHRES-ORDER"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/noname/Documents/nguyenvanhien/order/TechresOrder/Scenes/OrderDetail/AddOther/OtherFood/view/OtherFoodViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22">
+               </Location>
+               <Location
+                  uuid = "A2A77C2C-6DDC-46BC-AB98-FD060042E03F - 35e064a051ef38a3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TECHRES_ORDER.OtherFoodViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;TECHRES_ORDER.OtherFoodViewController&gt;"
+                  moduleName = "TECHRES-ORDER"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/noname/Documents/nguyenvanhien/order/TechresOrder/Scenes/OrderDetail/AddOther/OtherFood/view/OtherFoodViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F74A1858-8DB6-4077-913F-9BD28BA9729D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TechresOrder/NetworkManager/HeaderConnectionParameter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "headerNode(ProjectId:Method:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

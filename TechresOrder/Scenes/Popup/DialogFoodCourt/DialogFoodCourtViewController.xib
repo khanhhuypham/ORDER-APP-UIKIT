@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DialogFoodCourtViewController" customModule="TECHRES_ORDER" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FMr-IR-vMK">
+                    <rect key="frame" x="44" y="332" width="305" height="188.33333333333337"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="THÔNG BÁO" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ee1-sE-qja">
+                            <rect key="frame" x="20" y="20" width="265" height="19.333333333333329"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                            <color key="textColor" systemColor="systemOrangeColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="72h-gl-qgk">
+                            <rect key="frame" x="0.0" y="138.33333333333331" width="305" height="50"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="Jy7-Tm-aQm">
+                                    <rect key="frame" x="0.0" y="0.0" width="305" height="50"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T14-la-K2q">
+                                            <rect key="frame" x="0.0" y="0.0" width="305" height="50"/>
+                                            <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                            <state key="normal" title="ĐÓNG"/>
+                                            <connections>
+                                                <action selector="actionClose:" destination="-1" eventType="touchUpInside" id="cUD-mJ-hj7"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                </stackView>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemGray6Color"/>
+                            <constraints>
+                                <constraint firstItem="Jy7-Tm-aQm" firstAttribute="leading" secondItem="72h-gl-qgk" secondAttribute="leading" id="OUi-Nb-Iqf"/>
+                                <constraint firstItem="Jy7-Tm-aQm" firstAttribute="top" secondItem="72h-gl-qgk" secondAttribute="top" id="Tdi-jQ-Sgg"/>
+                                <constraint firstAttribute="height" constant="50" id="Zoh-hH-r7Y"/>
+                                <constraint firstAttribute="trailing" secondItem="Jy7-Tm-aQm" secondAttribute="trailing" id="eiF-Tt-VHB"/>
+                                <constraint firstAttribute="bottom" secondItem="Jy7-Tm-aQm" secondAttribute="bottom" id="jp3-4g-xP2"/>
+                            </constraints>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chi nhánh Áp dụng mô hình khinh doanh Food court không thể sử dụng app Order" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8bZ-rL-hVb">
+                            <rect key="frame" x="35" y="69.333333333333314" width="235" height="49"/>
+                            <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                            <color key="textColor" red="0.49019607840000001" green="0.4941176471" blue="0.50588235290000005" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="72h-gl-qgk" firstAttribute="top" secondItem="8bZ-rL-hVb" secondAttribute="bottom" constant="20" id="09a-qI-XXF"/>
+                        <constraint firstItem="ee1-sE-qja" firstAttribute="leading" secondItem="FMr-IR-vMK" secondAttribute="leading" constant="20" id="CGp-VZ-w4V"/>
+                        <constraint firstItem="72h-gl-qgk" firstAttribute="leading" secondItem="FMr-IR-vMK" secondAttribute="leading" id="M6n-HQ-FJu"/>
+                        <constraint firstItem="ee1-sE-qja" firstAttribute="top" secondItem="FMr-IR-vMK" secondAttribute="top" constant="20" id="OIW-4y-3gl"/>
+                        <constraint firstItem="8bZ-rL-hVb" firstAttribute="leading" secondItem="FMr-IR-vMK" secondAttribute="leading" constant="35" id="bxU-Wh-55K"/>
+                        <constraint firstItem="8bZ-rL-hVb" firstAttribute="top" secondItem="ee1-sE-qja" secondAttribute="bottom" constant="30" id="ca5-Dt-sC1"/>
+                        <constraint firstAttribute="bottom" secondItem="72h-gl-qgk" secondAttribute="bottom" id="j7L-CK-hXq"/>
+                        <constraint firstAttribute="trailing" secondItem="ee1-sE-qja" secondAttribute="trailing" constant="20" id="sHG-ip-Yix"/>
+                        <constraint firstAttribute="width" constant="305" id="uAA-zc-4Qv"/>
+                        <constraint firstAttribute="trailing" secondItem="8bZ-rL-hVb" secondAttribute="trailing" constant="35" id="vR7-0T-7oR"/>
+                        <constraint firstAttribute="trailing" secondItem="72h-gl-qgk" secondAttribute="trailing" id="vgQ-bv-WDz"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="8"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="secondarySystemFillColor"/>
+            <constraints>
+                <constraint firstItem="FMr-IR-vMK" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="8bH-HM-YGL"/>
+                <constraint firstItem="FMr-IR-vMK" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="tLw-3x-ka3"/>
+            </constraints>
+            <point key="canvasLocation" x="-27" y="-32"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="secondarySystemFillColor">
+            <color red="0.47058823529411764" green="0.47058823529411764" blue="0.50196078431372548" alpha="0.16" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGray6Color">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
